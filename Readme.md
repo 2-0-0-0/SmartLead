@@ -21,6 +21,8 @@ Key Features:
 
                                Though powerful, this method faced limitations due to non-uniform website structures. We flag this as a point for future enhancement (see below).
 
+ Export: Users can export enriched lead data as a CSV for further analysis or CRM integration.
+
 3. Fake Website Detection (Heuristic)
 
 To filter out non-genuine or low-quality leads, we implemented:
@@ -44,6 +46,7 @@ Scraping	requests, BeautifulSoup, SerpAPI
 LLM Enrich	Together.ai (Mistral-7B)
 Validation	SSL socket check, heuristics, keyword scans
 Scoring	Custom logic based on metadata completeness
+
 
 Limitations & Future Improvements:
 
